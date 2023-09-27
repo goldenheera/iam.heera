@@ -1,0 +1,61 @@
+/* Add a blue background color to the header */
+header {
+  background-color: #007BFF; /* Change this color to your preference */
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:top; /* Add a relative position for the ripple effect */
+}
+
+
+
+/* Style the logo */
+.navbar h1 {
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+/* Style the navigation menu */
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style the search bar */
+.search-bar {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  background-color: #fff; /* Change this color to your preference */
+  color: #007BFF; /* Change this color to your preference */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+
+
+  
+  
